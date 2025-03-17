@@ -15,7 +15,7 @@ int main(){
         if (abs(k) % p != 0) {
             min_ops++;
         }
-        cout << min_ops << "\n";
+        cout << min_ops <<endl;
     }
     return 0;
 }
