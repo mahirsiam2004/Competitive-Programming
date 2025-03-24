@@ -8,3 +8,4 @@ int main(){
     cout << (total_cost > n ? total_cost - n : 0) << endl;
     return 0;
 }
+
