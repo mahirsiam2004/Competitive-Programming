@@ -11,8 +11,7 @@ int main(){
 			arr[i]=arr[i-1]+arr[i];
 		}
 	}
-	
- 
+
 	int min=150000010;
 	   long long  minindex=0;
 	for(int i=0;i<=n-k;i++){
