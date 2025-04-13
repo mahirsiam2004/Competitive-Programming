@@ -1,9 +1,8 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
- 
-int main()
-{
-    int n, i, min, max, Index_min, Index_max;
+#define ll long long
+int main(){
+    ll n, i, min, max, Index_min, Index_max;
     cin >> n;
     int arr[n];
     for (i = 0; i < n; i++)
@@ -37,4 +36,5 @@ int main()
         Index_min = (n - 1) - Index_min;
         cout << (Index_min + Index_max) << endl;
     }
+    return 0;
 }
