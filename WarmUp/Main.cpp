@@ -1,8 +1,7 @@
-include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
- 
-int main()
-{
+#define ll long long
+int main(){
     int array[4], count = 0, i;
     for (i = 0; i < 4; i++)
     {
@@ -17,4 +16,5 @@ int main()
         }
     }
     cout << count << endl;
+    return 0;
 }
