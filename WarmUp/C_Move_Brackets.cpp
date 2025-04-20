@@ -19,7 +19,7 @@ int main(){
         if(i == ')' && st.empty()){
           count++;
           continue;
-        }
+        } 
         st.push(i);
       }
       cout<<count<<endl;
