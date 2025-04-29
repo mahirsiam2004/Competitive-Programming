@@ -2,27 +2,15 @@
 using namespace std;
 #define ll long long
 int main(){
-    int t;
-    cin >> t;
-    while (t--) {
+    ll t;
+    cin>>t;
+    while(t--){
         int n;
         cin >> n;
-        vector<int> a(n);
-        for (int i = 0; i < n; ++i) {
-            cin >> a[i];
-        }
-
-        int maxPleasure = 0;
-        for (int i = 0; i < n; ++i) {
-            for (int j = i + 1; j < n; ++j) {
-                int g = gcd(a[i], a[j]);
-                if (g > maxPleasure) {
-                    maxPleasure = g;
-                }
-            }
-        }
-
-        cout << maxPleasure << "\n";
+        vector<int> arr(n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+        sort(arr.begin(), arr.end());
+        cout << arr[n-1] - arr[0] << endl;
     }
     return 0;
 }
