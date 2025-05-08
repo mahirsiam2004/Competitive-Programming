@@ -21,3 +21,7 @@ int main(){
     cout << total_years << "\n";
     return 0;
 }
+
+//  /\_/\  
+// ( o.o ) 
+//  > ^ <_M_FOR_MAHIR
