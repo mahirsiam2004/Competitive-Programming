@@ -5,7 +5,6 @@ int main() {
     int A, B;
     cin >> A >> B;
     bool found = false;
-
     for (int i = A; i <= B; i++) {
         int num = i;
         bool isLucky = true;
@@ -30,3 +29,5 @@ int main() {
     cout << endl;
     return 0;
 }
+
+
